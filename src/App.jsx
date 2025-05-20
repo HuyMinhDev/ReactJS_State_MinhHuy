@@ -7,63 +7,63 @@ function App() {
       id: 1,
       price: 30,
       name: "GUCCI G8850U",
-      url: "/public/img/v1.png",
+      url: "src/assets/img/v1.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 2,
       price: 50,
       name: "GUCCI G8759H",
-      url: "/public/img/v2.png",
+      url: "src/assets/img/v2.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 3,
       price: 30,
       name: "DIOR D6700HQ",
-      url: "/public/img/v3.png",
+      url: "src/assets/img/v3.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 4,
       price: 70,
       name: "DIOR D6005U",
-      url: "/public/img/v4.png",
+      url: "src/assets/img/v4.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 5,
       price: 40,
       name: "PRADA P8750",
-      url: "/public/img/v5.png",
+      url: "src/assets/img/v5.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 6,
       price: 60,
       name: "PRADA P9700",
-      url: "/public/img/v6.png",
+      url: "src/assets/img/v6.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 7,
       price: 80,
       name: "FENDI F8750",
-      url: "/public/img/v7.png",
+      url: "src/assets/img/v7.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 8,
       price: 100,
       name: "FENDI F8500",
-      url: "/public/img/v8.png",
+      url: "src/assets/img/v8.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
     {
       id: 9,
       price: 60,
       name: "FENDI F4300",
-      url: "/public/img/v9.png",
+      url: "src/assets/img/v9.png",
       desc: "Light pink square lenses define these sunglasses, ending with a mother of pearl effect tip.",
     },
   ];
@@ -78,7 +78,7 @@ function App() {
           {/* Người mẫu + kính */}
           <div className="col-md-4 position-relative text-center">
             <img
-              src="/public/img/model.jpg"
+              src="src/assets/img/model.jpg"
               alt="model"
               className="img-fluid"
               style={{ height: "400px", objectFit: "cover" }}
