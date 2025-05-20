@@ -1,0 +1,61 @@
+.bg-body {
+  background-image: url(../public/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* min-height: 100vh; */
+}
+.app-title {
+  background-color: #2a2828;
+  color: white;
+  padding: 20px 0;
+  opacity: 0.8;
+}
+.bg-infor {
+  background-color: #23cfcf;
+  color: white;
+  opacity: 0.7;
+  width: 75%;
+  bottom: 0;
+  left: 55px;
+  right: 0;
+  font-weight: 600;
+}
+.bg-infor h5 {
+  font-weight: bold;
+}
+.bg-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.btn-glasses {
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background-color: transparent;
+  padding: 5px;
+  transition: all 0.3s;
+}
+.btn-glasses:hover {
+  background-color: #23cfcf;
+  color: white;
+}
+.title-try {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  content: "";
+}
+.title-try .title-try-left {
+  position: absolute;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  top: 130px;
+}
